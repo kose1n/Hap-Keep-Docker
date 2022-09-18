@@ -29,3 +29,7 @@ haproxy-ssl-termination.conf haproxy.cfg<br>
 Запуск keepalived на мастере и резерве:<br>
 keepalived --dump-conf --log-console --log-detail --log-facility 7 --vrrp -f /etc/keepalived/keepalived-master.conf<br><br>
 keepalived --dump-conf --log-console --log-detail --log-facility 7 --vrrp -f /etc/keepalived/keepalived-backup.conf<br>
+
+Как итог: 
+![Screenshot_11](https://user-images.githubusercontent.com/55352038/190901321-ea6f80d7-ea70-4fad-851d-c74a752b8014.png)
+
