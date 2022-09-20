@@ -4,6 +4,7 @@
 Кластер на основе Docker.<br>
 На базе образов morningspace/lab-web и morningspace/lab-lb. <br>
 
+
 Два веб-сервера web1/web2 - контейнеры (morningspace/lab-web), на основе Nginx в качестве веб-сервера. Http/https включены.<br>
 Перед серверами две балансировщика mylb1(главный узел) и mylb2(резервный узел) - контейнеры (morningspace/lab-lb)<br>
 И haproxy, и keepalived установлены. haproxy подключается к двум веб-серверам. <br>
