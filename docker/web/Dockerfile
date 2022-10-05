@@ -1,5 +1,5 @@
 FROM nginx
-
+#nginx shell
 LABEL maintainer="kocccs@mail.ru"
 
 COPY ./conf ./docker/web/entrypoint.sh /tmp/
