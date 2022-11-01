@@ -1,5 +1,7 @@
 # Hap-Keep-Docker
-Отказоустойчивый кластер с балансировкой нагрузки Docker, HAProxy, Keepalived, nginx, Load Balance
+#Курс Mogrinspace
+
+Отказоустойчивый кластер с балансировкой нагрузки Docker, HAProxy, Keepalived, nginx, Load Balance 
 
 Кластер на основе Docker.<br>
 На базе образов morningspace/lab-web и morningspace/lab-lb. <br>
